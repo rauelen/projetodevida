@@ -58,17 +58,19 @@ body {
         .botao:first-child {
             border-radius: 40px 40px 0 0;
         }
+           }                            }
+        for (let i = 0; i < botoes.length; i++) {
+            botoes[i].onclick = function () }
+            
         
-        @media screen and (min-width: 768px) {
-            .botoes {
-                display: flex;
-            }
+                for (let j = 0; j < botoes.length; j++) {
+                    botoes[j].classList.remove("ativo");
+                    textos[j].classList.remove("ativo");
+                }
         
-            .botao:first-child {
-                border-radius: 40px 0 0 0;
+                {botoes[i].classList.add("ativo");
+                textos[i].classList.add("ativo");
             }
+        }
         
-            .botao:last-child {
-                border-radius: 0 40px 0 0;
-            }
-        }                            }
+        
